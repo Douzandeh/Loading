@@ -1,0 +1,21 @@
+.loading{
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid;
+    border-top-color: rgba(0, 0, 0, 0.60);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-left-color: rgba(0, 0, 0, 0.65);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    animation-name: loading;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
